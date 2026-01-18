@@ -1,4 +1,4 @@
-    # native
+# native
 
 [![Go Reference](https://pkg.go.dev/badge/github.com/thediveo/native.svg)](https://pkg.go.dev/github.com/thediveo/native)
 [![GitHub](https://img.shields.io/github/license/thediveo/native)](https://img.shields.io/github/license/thediveo/native)
@@ -14,9 +14,6 @@ native endianess. Think of it as the missing convenience combination of
 Especially useful when dealing with
 [netlink](https://en.wikipedia.org/wiki/Netlink). And no need to manually unroll
 `encoding/binary` interface calls depending on endianess at runtime.
-
-For devcontainer instructions, please see the [section "DevContainer"
-below](#devcontainer).
 
 ## DevContainer
 

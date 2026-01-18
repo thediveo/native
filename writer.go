@@ -20,7 +20,7 @@ import (
 )
 
 // Writer writes numbers in various fixed sizes and always in native endianess
-// to by sequences. It is a much more convenient combination of [bytes.Buffer]
+// to byte sequences. It is a much more convenient combination of [bytes.Buffer]
 // with [encoding.Binary], with better performance on top of it.
 type Writer struct {
 	buff *bytes.Buffer
